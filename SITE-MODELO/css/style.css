@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: #000000;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -37,12 +37,12 @@ nav li a{
     transition: 0.3s;
 }
 nav li a:hover{
-    background-color: white;
+    background-color: #1acc5a;
     color: black;
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background.jpg');
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background01.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,6 +51,9 @@ nav li a:hover{
     justify-content: center;
     text-align: center;
 }
+
+/*<a href="https://br.freepik.com/vetores-gratis/protetor-de-tela-abstrato-de-tecnologia-realista_6929488.htm#query=fundotecnologiaverde&position=0&from_view=keyword&track=ais?log-in=google">Imagem de pikisuperstar</a> no Freepik*/
+
 .texto .titulo{
     color: #fff;
     font-size: 60px;
@@ -84,13 +87,19 @@ nav li a:hover{
 }
 .texto .botoes button.n-overlay:hover{
     color: black;
-    background-color: white;
+    background-color:white;
 }
 .texto .botoes button.overlay{
     background: white;
     color: black;
     animation: vibrar 0.5s ease-in-out infinite both;
 }
+
+#img-logo{
+    width: 25%;
+    height: 25%;
+}
+
 @keyframes vibrar {
     0%{
         transform: scale(1);
