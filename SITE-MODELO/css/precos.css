@@ -42,7 +42,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('../img/background01.png');
+    background: linear-gradient(#085a2c, #1acc5a,#085a2c);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,15 +55,26 @@ nav li a:hover{
 /*<a href="https://br.freepik.com/vetores-gratis/protetor-de-tela-abstrato-de-tecnologia-realista_6929488.htm#query=fundotecnologiaverde&position=0&from_view=keyword&track=ais?log-in=google">Imagem de pikisuperstar</a> no Freepik*/
 
 .texto .titulo{
-    color: #fff;
-    font-size: 60px;
+    color: #000000;
+    font-size: 30px;
     font-weight: 600;
 }
-.texto .sub_titulo{
+.texto button{
+    text-decoration: none;
     color: #fff;
-    font-size: 58px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #000000;
 }
+
+.texto button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
 .texto .botoes{
     margin-top: 30px;
 }
